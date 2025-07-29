@@ -1,9 +1,9 @@
 package com.pavan.dto;
 
 public class AadharDTO {
-	
+
 	private int employeeID;
-	private long aadharID;
+	private long aadharnumber;
 	private String country;
 
 	public int getEmployeeID() {
@@ -14,12 +14,12 @@ public class AadharDTO {
 		this.employeeID = employeeID;
 	}
 
-	public long getAadharID() {
-		return aadharID;
+	public long getAadharnumber() {
+		return aadharnumber;
 	}
 
-	public void setAadharID(long aadharID) {
-		this.aadharID = aadharID;
+	public void setAadharnumber(long aadharnumber) {
+		this.aadharnumber = aadharnumber;
 	}
 
 	public String getCountry() {
@@ -32,7 +32,7 @@ public class AadharDTO {
 
 	@Override
 	public String toString() {
-		return "AadharDTO [employeeID=" + employeeID + ", aadharID=" + aadharID + ", country=" + country + "]";
+		return "AadharDTO [employeeID=" + employeeID + ", aadharnumber=" + aadharnumber + ", country=" + country + "]";
 	}
 
 }

@@ -4,7 +4,7 @@ public class EmployeeDTO {
 
 	private String employeeName;
 	private double salary;
-	private long aadharNumber;
+	private long aadharnumber;
 	private String country;
 
 	public String getEmployeeName() {
@@ -23,12 +23,12 @@ public class EmployeeDTO {
 		this.salary = salary;
 	}
 
-	public long getAadharNumber() {
-		return aadharNumber;
+	public long getAadharnumber() {
+		return aadharnumber;
 	}
 
-	public void setAadharNumber(long aadharNumber) {
-		this.aadharNumber = aadharNumber;
+	public void setAadharnumber(long aadharnumber) {
+		this.aadharnumber = aadharnumber;
 	}
 
 	public String getCountry() {
