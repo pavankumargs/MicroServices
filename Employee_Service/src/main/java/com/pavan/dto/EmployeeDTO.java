@@ -39,4 +39,12 @@ public class EmployeeDTO {
 		this.country = country;
 	}
 
+	@Override
+	public String toString() {
+		return "EmployeeDTO [employeeName=" + employeeName + ", salary=" + salary + ", aadharnumber=" + aadharnumber
+				+ ", country=" + country + "]";
+	}
+	
+	
+
 }
